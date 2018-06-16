@@ -24,7 +24,7 @@ github_username:  abenjamin765
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
 
@@ -39,3 +39,5 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+sass:
+    sass_dir: _sass
