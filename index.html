@@ -2,4 +2,9 @@
 layout: home
 ---
 
-{%include nav.html%}
+<header class="tile page-header">
+	{%include logo.html%}
+</header>
+{% for post in site.posts %}
+<a class="tile" href="{{ post.url }}" style="background-image: url('{{ post.image }}')"><span>{{ post.title }}</span></a>
+{% endfor %}
