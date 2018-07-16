@@ -1,26 +1,64 @@
 ---
 layout: post
-title:  "Buttons"
-date:   2018-06-17 19:58:13 -0700
+title:  "10 tips for horrible buttons"
+date:   2018-06-30 19:58:13
 categories: ux buttons
 image: /assets/img/hero-buttons.png
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Make your app or website really hard to use by eliminating as much affordance as possible.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+## 1. Dodge clicks with ninja-like stealth
+A great way to reduce clicks is to make sure users can’t find the actions available on the page. You can achieve this in a few ways:
 
-Jekyll also offers powerful support for code snippets:
+### Camouflage buttons to make them blend in
+Think your buttons need styling to stand out? Think again! Use the same styles as other elements on the page to be sure no one can find your buttons.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+![Example image of buttons styled the same as body text.](/assets/img/buttons_nostyle.png){:height="300px" width="800px"}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+### Hide buttons behind interactions
+Don't show your hand too early. Make users hunt for your buttons.
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+![Example image of buttons that only display on hover.](/assets/img/buttons_hidden.png){:height="244px" width="602px"}
+
+## 2. Always pick the pointer. Always.
+Make sure users can't tell the different between hyper-links and buttons. Overriding the browser defaults to make all buttons behave just like links is sure to confuse them.
+
+## 3. Use ambiguous labels
+Drive conversions to zero by using nondescript labels on your buttons. 
+
+
+### Try vague action words
+Want to erode trust with your customers? Use labels like `continue`, `next`, or `submit` to cause anxiety before users make decisions.
+
+![Example image showing a commerce pop-up with a button labeled Next.](/assets/img/buttons_popup.png){:height="380px" width="700px"}
+
+### Symbols
+Design your navigation around a fun guessing game. People love games. 
+
+![Example image showing unlabeled icon buttons.](/assets/img/buttons_symbols.png){:height="380px" width="555px"}
+
+## 4. Don’t offer context for action or decisions
+The context around a button could potentially help a user make a decision. Who needs that? 
+
+### Use colors that fit your brand rather than ones that might offer context
+It's far more important that a user knows what colors your niece picked out of a hat when you founded the company than it is to help a user understand what action they're taking.
+
+![Example image showing unlabeled icon buttons.](/assets/img/buttons_color.png){:height="380px" width="700px"}
+
+## 5. Use animation
+Animation is a great way to make a button really hard to select. 
+
+## 6. Make everything a button
+It's important to drive users to every feature you have to offer. Buttons are great for grabbing attention and distracting users from all that other garbage on the page they don't want to read anyway. 
+
+## 7. Don’t worry about states
+Buttons can be enabled, disabled, hovered, in focus, or active...but who cares? Your user doesn't need to know the difference.
+
+## 8. Make feedback invisible
+Sometimes, when a button is clicked your back-end has work to do. Don't bother telling the user. They can wait patiently. 
+
+## 9. Keep the target area minimal
+By decreasing the size of your buttons, you can INCREASE the mistakes your users make. 
+
+## 10. Use all caps
+Yelling at users will show them who's boss. 
